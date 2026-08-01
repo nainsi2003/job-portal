@@ -22,5 +22,7 @@ A full-stack Job Portal application built using Spring Boot, React, and MySQL.
 ## Project Status
 🚧 Currently in development.
 
-### Progress
-- ✅ Day 1: Spring Boot project setup and MySQL configuration
+## Progress
+
+- ✅ Day 1: Spring Boot project setup and MySQL configuration.
+- ✅ Day 2: Created User Entity and User Repository using Spring Data JPA. Successfully connected the application to MySQL and automatically generated the `users` table.
