@@ -31,3 +31,4 @@ A full-stack Job Portal application built using Spring Boot, React, and MySQL.
   - Used Lombok to reduce boilerplate code.
   - Created `UserRepository` using `JpaRepository`.
   - Successfully generated the `users` table in the `job_portal` database.
+  🟩 Day 3: Created User Registration API using Controller, Service, Repository, and tested successfully with Thunder Client.
