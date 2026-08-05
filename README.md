@@ -46,3 +46,19 @@ A full-stack Job Portal application built using Spring Boot, React, and MySQL.
 - Spring Data JPA
 - MySQL
 - Thunder Client
+
+## Day 5 Progress
+
+### Features Completed
+- Job Entity
+- Job Repository
+- Job Service
+- Job Controller
+- Job Registration API
+- Saved Job details into MySQL
+
+### Technologies Used
+- Spring Boot
+- Spring Data JPA
+- MySQL
+- Thunder Client
