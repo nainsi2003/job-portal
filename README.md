@@ -32,32 +32,28 @@ A full-stack Job Portal application built using Spring Boot, React, and MySQL.
   - Created `UserRepository` using `JpaRepository`.
   - Successfully generated the `users` table in the `job_portal` database.
   🟩 Day 3: Created User Registration API using Controller, Service, Repository, and tested successfully with Thunder Client.
-## Day 4 Progress
-
-### Features Completed
+- ✅ Day 4:
 - User Login API
 - Email-based authentication
 - Password validation
 - Custom repository method using findByEmail()
 - Thunder Client testing
 
-### Technologies Used
+Technologies Used
 - Spring Boot
 - Spring Data JPA
 - MySQL
 - Thunder Client
 
-## Day 5 Progress
-
-### Features Completed
+- ✅ Day 5:
+  Features Completed
 - Job Entity
 - Job Repository
 - Job Service
 - Job Controller
 - Job Registration API
 - Saved Job details into MySQL
-
-### Technologies Used
+Technologies Used-
 - Spring Boot
 - Spring Data JPA
 - MySQL
