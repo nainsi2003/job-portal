@@ -1,5 +1,7 @@
 package com.jobportal.service;
 
+import java.util.List;
+
 import org.springframework.stereotype.Service;
 
 import com.jobportal.entity.Job;
@@ -13,6 +15,13 @@ public class JobService {
     public JobService(JobRepository jobRepository) {
         this.jobRepository = jobRepository;
     }
+    public List<Job> getAllJobs(){
+        return jobRepository.findAll();
+    }
+    public Job getJobById(Long id) {
+    return jobRepository.findById(id)
+            .orElseThrow(() -> new RuntimeException("Job not found"));
+}
 
     public Job saveJob(Job job) {
         return jobRepository.save(job);
