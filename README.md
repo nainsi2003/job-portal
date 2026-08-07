@@ -61,7 +61,23 @@ Technologies Used-
 - Thunder Client
 
 
-✅ Day 7 Completed
+✅ Day 6 Completed
 - Added Get All Jobs API
 - Added Get Job By ID API
 - Successfully tested both APIs using Thunder Client
+
+✅ Day 7
+✅ Created Job entity
+✅ Implemented JobRepository
+✅ Implemented JobService
+✅ Added APIs:
+- Create Job
+- Get All Jobs
+- Get Job By ID
+✅ Successfully tested APIs using Thunder Client.
+Current Progress:
+- User Registration ✔️
+- User Login ✔️
+- Job Create ✔️
+- Job List ✔️
+- Job Details ✔️
