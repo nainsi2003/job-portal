@@ -81,3 +81,14 @@ Current Progress:
 - Job Create ✔️
 - Job List ✔️
 - Job Details ✔️
+✅ Day 9
+ Implemented Delete Job API
+
+ Added `deleteJob()` method in JobService
+
+ Added DELETE endpoint:
+`DELETE /api/jobs/{id}`
+
+ Tested Delete Job API using Thunder Client
+
+ Verified deleted job using Get All Jobs API

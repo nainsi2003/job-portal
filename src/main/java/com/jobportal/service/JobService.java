@@ -39,4 +39,7 @@ public class JobService {
     public Job saveJob(Job job) {
         return jobRepository.save(job);
     }
+    public void deleteJob(Long id){
+        jobRepository.deleteById(id);
+    }
 }

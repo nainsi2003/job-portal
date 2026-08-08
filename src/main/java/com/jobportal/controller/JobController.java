@@ -2,6 +2,7 @@ package com.jobportal.controller;
 
 import java.util.List;
 
+import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -43,5 +44,11 @@ public class JobController {
             @RequestBody Job job) {
 
         return jobService.updateJob(id, job);
+    }
+
+    @DeleteMapping("/{id}")
+    public String deleteJob(@PathVariable Long id) {
+        jobService.deleteJob(id);
+        return "Job deleted successfully";
     }
 }
